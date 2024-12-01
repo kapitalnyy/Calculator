@@ -1,7 +1,7 @@
-# Calculator
+# Calculator <p>
 Html, css, javascipt coding project with goal to create working advanced calculator.
-Goal: building working calculator as my first highseas project.
-Languages used: HTML, CSS, Javascipt
+Goal: building working calculator as my first highseas project; 
+Languages used: HTML, CSS, Javascipt; 
 Time spent: ~5hours
 
 Featues:
