@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="kalkulator-ikona-700-80511018.jpg">
+        <meta charset='UTF-8'>
+        <meta name='copyright' content='Maciej Wójcikowski'>
+        <meta name='language' content='en'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="toggle-container">
+                <button class="button-74" role="button" id="toggleMode" onclick="toggleAdvanced()">Click for chinese mode</button>
+            </div>
+            <div class="calculator">
+                <form>
+                    <div class="display">
+                        <input type="text" id="display" readonly>
+                    </div>
+                    <div class="buttons">
+                        <div class="basic">
+                            <div>
+                                <div>
+                                    <input type="button" value="AC" onclick="display.value = '' ">
+                                    <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)">
+                                    <input type="button" value="." onclick="display.value += '.' ">
+                                    <input type="button" value="/" onclick="display.value += '/' ">
+                                </div>
+                                <div>
+                                    <input type="button" value="7" onclick="display.value += '7' ">
+                                    <input type="button" value="8" onclick="display.value += '8' ">
+                                    <input type="button" value="9" onclick="display.value += '9' ">
+                                    <input type="button" value="x" onclick="display.value += '*' ">
+                                </div>
+                                <div>
+                                    <input type="button" value="4" onclick="display.value += '4' ">
+                                    <input type="button" value="5" onclick="display.value += '5' ">
+                                    <input type="button" value="6" onclick="display.value += '6' ">
+                                    <input type="button" value="-" onclick="display.value += '-' ">
+                                </div>
+                                <div>
+                                    <input type="button" value="1" onclick="display.value += '1' ">
+                                    <input type="button" value="2" onclick="display.value += '2' ">
+                                    <input type="button" value="3" onclick="display.value += '3' ">
+                                    <input type="button" value="+" onclick="display.value += '+' ">
+                                </div>
+                                <div>
+                                    <input type="button" value="00" onclick="display.value += '00' ">
+                                    <input type="button" value="0" onclick="display.value += '0' ">
+                                    <input type="button" value="=" onclick="display.value = eval(display.value)" class="eq">
+                        </div>
+                        <div class="advanced" id="advanced-buttons" style="display: none">
+                            <div>
+                                <div>
+                                    <input type="button" value="**" onclick="display.value += '**' ">
+                                    <input type="button" value="**2" onclick="display.value += '**2' ">
+                                    <input type="button" value="**3" onclick="display.value += '**3' ">
+                                    <input type="button" value="mod" onclick="display.value += '%' ">
+                                </div>
+                                <div>
+                                    <input type="button" value="ad1" onclick="display.value += '--' ">
+                                    <input type="button" value="su1" onclick="display.value += '**2' ">
+                                    <input type="button" value="sin" onclick="calculateSin()">
+                                    <input type="button" value="cos" onclick="calculateCos()">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>
