@@ -1,18 +1,18 @@
-# Calculator <p>
-Html, css, javascipt coding project with goal to create working advanced calculator.
-Goal: building working calculator as my first highseas project; 
-Languages used: HTML, CSS, Javascipt; 
+# Calculator 
+Html, css, javascipt coding project with goal to create working advanced calculator. <p>
+Goal: building working calculator as my first highseas project; <p>
+Languages used: HTML, CSS, Javascipt; <p>
 Time spent: ~5hours
 
-Featues:
+Featues:<p>
 Normal mode:
   - addition
   - substraction
   - multiplication
   - factor
   - clean all
-  - delete one digit
-Advancedd mode (chinese):
+  - delete one digit<p>
+  Advancedd mode (chinese):
   - power
   - square
   - power to 3
