@@ -23,4 +23,4 @@ Advancedd mode (chinese):
   - cos
 
 We all start from somewhere, right?
-I would be truly thaankfull for voting at my project! Thanks for your time.
+I would be truly thankfull for voting at my project! Thanks for your time.
